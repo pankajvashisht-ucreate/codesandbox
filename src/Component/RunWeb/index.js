@@ -4,7 +4,7 @@ import withStyles from "react-jss";
 import { Styles } from "./Styles";
 
 const RunWeb = ({ srcData, classes }) => (
-	<div>
+	<div className={classes.main}>
 		<iframe
 			className={classes.main}
 			srcDoc={srcData}

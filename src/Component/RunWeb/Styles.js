@@ -1,1 +1,5 @@
-export const Styles = ({ color, font }) => {};
+export const Styles = () => ({
+	main: {
+		height: "50vh",
+	},
+});
